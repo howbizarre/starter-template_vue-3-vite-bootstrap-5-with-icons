@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+-   [Getting Started](#getting-started)
 -   [Enviroment](#enviroment)
     -   [Pre requirements](#pre-requirements)
         -   [Node JS and NPM](#node-js-and-npm)
@@ -14,10 +15,29 @@
     -   [Install and Run](#install-and-run)
 -   [Boilerplate](#boilerplate)
     -   [Clear project](#clear-project)
-    -   [Import Bootstrap 5, Icons and Router](#import-bootstrap-5-icons-and-router)
-    -   [Create routing](create-routing)
+    -   [Get Boilerplate files](#get-boilerplate-files)
 -   [Source code](#source-code)
 -   [License](#license)
+
+## Getting Started
+
+Свалете си сорса от [моето GitHub репозитори](https://github.com/howbizarre/starter-template_vue-3-vite-bootstrap-5-with-icons/releases). Разархиврате във ваша папка или в същата (архива съдържа собствена папка).
+
+Ако имате инсталиран Git може да клонирате проекта във ваша папка
+
+```sh
+git clone https://github.com/howbizarre/starter-template_vue-3-vite-bootstrap-5-with-icons
+```
+
+След което от конзолата (_command prompth_) отивате в папката, в която е `package.json` файла и стартирате следните:
+
+```sh
+npm install
+```
+
+```sh
+npm run dev
+```
 
 ## Enviroment
 
@@ -103,7 +123,7 @@ cd vue3-bootstrap5-boilerplate
 
 Повече информация за **Vite** инсталацията може да видите на адрес: https://vitejs.dev/guide/#scaffolding-your-first-vite-project
 
-Ако използвате [Visual Studio Code] в този момент може да го стартирате и да изпълните последващите команди от неговата конзола (Ctrl + `). Ако не го ползвате - може и от конзолата на операционната система. **Visual Studio Code** се стартира със следната команда:
+Ако използвате [Visual Studio Code] в този момент може да го стартирате и да изпълните последващите команди от неговата конзола (Ctrl + `). Ако не го ползвате - може и от конзолата на операционната система. **Visual Studio Code** се стартира със зареден прокт, ако в дриректорията на проекта в конзолата напишете:
 
 ```sh
 code .
@@ -174,43 +194,23 @@ npm run dev
 
 Изтриите папката **assets** `/src/assets`, а в папката **components** `/src/components` изтриите файла `HelloWorld.vue`.
 
-### Import Bootstrap 5, Icons and Router
+### Get Boilerplate files
 
-В папката `/src` на проекта има създаден файл `main.js`. Там ще добавим импорта на **Bootstrap**, както и **Vue Router**.
+Време е да спрем с писаниците и да вземем малко наготово кода, който съм добавил в [GitHub репозиторито на проекта](https://github.com/howbizarre/starter-template_vue-3-vite-bootstrap-5-with-icons/releases). Това, което ви е необходимо е всичко в папката `/src`.
 
-Отворете файла и добавете веднага сле `import { createApp } from "vue";` следните редове:
+Правите Copy & Replace във вашата `/src` папка, след което от конзолата, в папката с `package.json` файла, изпълнявате комнадите:
 
-```vue
-import "bootstrap/scss/bootstrap.scss"; import "bootstrap-icons/font/bootstrap-icons.css";
+```sh
+npm install
 ```
 
-**Vue Router** се добавя веднага след `import App from "./App.vue";`
-
-```vue
-import router from "./router";
-```
-
-И на края окажете, че ще използвате рутера преди закачането на приложението
-
-```vue
-createApp(App).use(router).mount("#app");
-```
-
-В крайна сметка `main.js` трябва да изглежда по следния начин:
-
-```vue
-import { createApp } from "vue"; import "bootstrap/scss/bootstrap.scss"; import "bootstrap-icons/font/bootstrap-icons.css"; import App from "./App.vue"; import router from "./router"; createApp(App).use(router).mount("#app");
-```
-
-### Create routing
-
-В папката `/src` създайте нова папка с име **router** `/src/router` и вътре създайте файл с име **index.js** `/src/router/index.js`. Отворете файла и добавете следното съдържание:
-
-```vue
-import { createRouter, createWebHistory } from "vue-router"; export const routes = []; const history = createWebHistory(); const router = createRouter({ history, routes, }); export default router;
+```sh
+npm run dev
 ```
 
 ## Source code
+
+[Repository](https://github.com/howbizarre/starter-template_vue-3-vite-bootstrap-5-with-icons) & [Releases](https://github.com/howbizarre/starter-template_vue-3-vite-bootstrap-5-with-icons/releases)
 
 ## License
 
@@ -229,3 +229,5 @@ MIT
 [vue router]: https://next.router.vuejs.org/
 [visual studio code]: https://code.visualstudio.com/
 [proper js]: https://popper.js.org/
+[vuex]: https://next.vuex.vuejs.org/
+[github]: https://github.com/
