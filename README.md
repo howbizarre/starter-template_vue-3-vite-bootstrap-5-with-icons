@@ -13,6 +13,9 @@
         -   [Sass](#sass)
     -   [Install and Run](#install-and-run)
 -   [Boilerplate](#boilerplate)
+    -   [Clear project](#clear-project)
+    -   [Import Bootstrap 5, Icons and Router](#import-bootstrap-5-icons-and-router)
+    -   [Create routing](create-routing)
 -   [Source code](#source-code)
 -   [License](#license)
 
@@ -20,11 +23,11 @@
 
 ### Pre requirements
 
-Ако знаете какво е [Node JS] и [NPM] преминете на [Dependences](#dependences), ако не - ще спомена на кратко за какво да направите, ако все още не сте ги инсталирали.
+Ако знаете какво е [Node JS] и [NPM] преминете на [Dependences](#dependences), ако не - ще спомена на кратко какво да направите, за да си ги инсталирате.
 
 #### Node JS and NPM
 
-На сайта на [Node JS] може да изтеглите инсталционния пакет. Най-добре е да гледате **LTS** (Long Term Support) версията. Следвайте стъпките на инсталатора и след приключване проверете в конзолата, дали всичко е добре.
+На сайта на [Node JS] може да изтеглите инсталционния пакет. Най-добре за начало да свалите **LTS** (Long Term Support) версията. Стартирайте инсталатора и следвайте стъпките. След приключване проверете в конзолата (_Command Prompth_), дали всичко е добре.
 
 1. Проверка на версията на Node JS
 
@@ -54,7 +57,7 @@ npm install vue@next
 npm install -D @vue/compiler-sfc
 ```
 
-2. Инсталиране на Vue CLI
+3. Инсталиране на Vue CLI
 
 ```sh
 npm install -g @vue/cli
@@ -72,13 +75,13 @@ npm install -g @vue/cli
 
 #### Vite
 
-Започваме с инициализация на проекта ни с **Vite** темплейт. За целта в конзолата напишете:
+1. Започваме с инициализация на проекта ни с **Vite** темплейт. За целта в конзолата напишете:
 
 ```sh
 npm init @vitejs/app
 ```
 
-В следващите стъпки окажете следните данни:
+2. В следващите стъпки окажете следните данни:
 
 ```sh
 Project name: vue3-bootstrap5-boilerplate
@@ -92,13 +95,15 @@ Select a framework: vue
 Select a variant: vue
 ```
 
+3. Отидете в директорията на новосъздадения проект:
+
 ```sh
 cd vue3-bootstrap5-boilerplate
 ```
 
 Повече информация за **Vite** инсталацията може да видите на адрес: https://vitejs.dev/guide/#scaffolding-your-first-vite-project
 
-Ако използвате [Visual Studio Code] в този момент може да го стартирате и да изпълните последващите команди от неговата конзола. Ако не го ползвате - може и от конзолата на операционната система. **Visual Studio Code** се стартира със следната команда:
+Ако използвате [Visual Studio Code] в този момент може да го стартирате и да изпълните последващите команди от неговата конзола (Ctrl + `). Ако не го ползвате - може и от конзолата на операционната система. **Visual Studio Code** се стартира със следната команда:
 
 ```sh
 code .
@@ -155,6 +160,55 @@ npm run dev
 Ще се зареди стартовия проект **Hello Vue 3 + Vite** на http://localhost:3000/
 
 ## Boilerplate
+
+### Clear project
+
+**Vite** добавя към проекта няколко неща, които няма да са ни нужни.
+
+Най-напред отворете файла `/src/App.vue` и премахнете ненужното съдържание, докато придобие следния вид:
+
+```vue
+<template></template>
+<script></script>
+```
+
+Изтриите папката **assets** `/src/assets`, а в папката **components** `/src/components` изтриите файла `HelloWorld.vue`.
+
+### Import Bootstrap 5, Icons and Router
+
+В папката `/src` на проекта има създаден файл `main.js`. Там ще добавим импорта на **Bootstrap**, както и **Vue Router**.
+
+Отворете файла и добавете веднага сле `import { createApp } from "vue";` следните редове:
+
+```vue
+import "bootstrap/scss/bootstrap.scss"; import "bootstrap-icons/font/bootstrap-icons.css";
+```
+
+**Vue Router** се добавя веднага след `import App from "./App.vue";`
+
+```vue
+import router from "./router";
+```
+
+И на края окажете, че ще използвате рутера преди закачането на приложението
+
+```vue
+createApp(App).use(router).mount("#app");
+```
+
+В крайна сметка `main.js` трябва да изглежда по следния начин:
+
+```vue
+import { createApp } from "vue"; import "bootstrap/scss/bootstrap.scss"; import "bootstrap-icons/font/bootstrap-icons.css"; import App from "./App.vue"; import router from "./router"; createApp(App).use(router).mount("#app");
+```
+
+### Create routing
+
+В папката `/src` създайте нова папка с име **router** `/src/router` и вътре създайте файл с име **index.js** `/src/router/index.js`. Отворете файла и добавете следното съдържание:
+
+```vue
+import { createRouter, createWebHistory } from "vue-router"; export const routes = []; const history = createWebHistory(); const router = createRouter({ history, routes, }); export default router;
+```
 
 ## Source code
 
