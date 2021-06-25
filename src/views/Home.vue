@@ -135,8 +135,6 @@
     }
 
     .bd-example-row {
-        border-top: 1px solid $bl;
-
         .row {
             & > [class^="col-"] {
                 padding-top: $dive;
