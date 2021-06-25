@@ -23,13 +23,13 @@
 
 Свалете си сорса от [моето GitHub репозитори](https://github.com/howbizarre/starter-template_vue-3-vite-bootstrap-5-with-icons/releases). Разархиврате във ваша папка или в същата (архива съдържа собствена папка).
 
-Ако имате инсталиран Git може да клонирате проекта във ваша папка
+Ако имате инсталиран Git може да клонирате проекта във ваша папка с командата:
 
 ```sh
 git clone https://github.com/howbizarre/starter-template_vue-3-vite-bootstrap-5-with-icons
 ```
 
-След което от конзолата (_command prompth_) отивате в папката, в която е `package.json` файла и стартирате следните:
+След което от конзолата (_command prompth_) отивате в папката, в която е `package.json` файла и стартирате следните команди:
 
 ```sh
 npm install
@@ -38,6 +38,10 @@ npm install
 ```sh
 npm run dev
 ```
+
+И това е всичко.
+
+По долу съм описал малко постъпково, как да си нарпавите сами Vue 3 Boilerplate with Bootstrap 5
 
 ## Enviroment
 
@@ -196,17 +200,9 @@ npm run dev
 
 ### Get Boilerplate files
 
-Време е да спрем с писаниците и да вземем малко наготово кода, който съм добавил в [GitHub репозиторито на проекта](https://github.com/howbizarre/starter-template_vue-3-vite-bootstrap-5-with-icons/releases). Това, което ви е необходимо е всичко в папката `/src`.
+Време е да спрем с писаниците и да вземем малко наготово кода, който съм добавил в [GitHub репозиторито на проекта](https://github.com/howbizarre/starter-template_vue-3-vite-bootstrap-5-with-icons/releases). Това, което ви е необходимо е всичко в папката `/src` и правите Copy & Replace във вашата `/src` папка.
 
-Правите Copy & Replace във вашата `/src` папка, след което от конзолата, в папката с `package.json` файла, изпълнявате комнадите:
-
-```sh
-npm install
-```
-
-```sh
-npm run dev
-```
+**И това е всикчо приятели.**
 
 ## Source code
 
