@@ -4,10 +4,10 @@
 
 -   [Getting Started](#getting-started) - the easy way (TLDR)
 -   [Enviroment](#enviroment) - step by step to boilerplate
-    -   [Pre requirements](#pre-requirements)
+    -   [Requirements](#requirements)
         -   [Node JS and NPM](#node-js-and-npm)
         -   [Vue JS v3, SFC and Vue CLI](#vue-js-v3-sfc-and-vue-cli)
-    -   [Dependences](#dependences)
+    -   [Packages](#packages)
         -   [Vite](#vite)
         -   [Vue router](#vue-router)
         -   [Bootstrap 5, Bootstrap Icons and Proper](#bootstrap-5-bootstrap-icons-and-proper)
@@ -21,13 +21,17 @@
 
 ## Getting Started
 
-Свалете си сорса от [моето GitHub репозитори](https://github.com/howbizarre/starter-template_vue-3-vite-bootstrap-5-with-icons/releases). Разархиврате във ваша папка или в същата (архива съдържа собствена папка).
+Свалете си сорса от [GitHub](https://github.com/howbizarre/starter-template_vue-3-vite-bootstrap-5-with-icons/releases). Разархиврате във ваша папка или в същата (архива съдържа собствена папка).
 
-> <small>**EN**</small> Download the source [from my GitHub repository](https://github.com/howbizarre/starter-template_vue-3-vite-bootstrap-5-with-icons/releases). Unzip to your folder or to the same folder (the archive contains its own folder).
+> <small>[**EN**]</small>
+>
+> Download the source [GitHub](https://github.com/howbizarre/starter-template_vue-3-vite-bootstrap-5-with-icons/releases). Unzip to your folder or to the same folder (the archive contains its own folder).
 
-Ако имате инсталиран Git може да клонирате проекта във ваша папка с командата:
+Ако имате инсталиран [Git] може да клонирате проекта във ваша папка с командата:
 
-> <small>**EN**</small> If you have Git installed you can clone the project in your folder with the command:
+> <small>[**EN**]</small>
+>
+> If you have Git installed you can clone the project in your folder with the command:
 
 ```sh
 git clone https://github.com/howbizarre/starter-template_vue-3-vite-bootstrap-5-with-icons
@@ -35,7 +39,9 @@ git clone https://github.com/howbizarre/starter-template_vue-3-vite-bootstrap-5-
 
 След което от конзолата (_command prompth_) отивате в папката, в която е `package.json` файла и стартирате следните команди:
 
-> <small>**EN**</small> Then from the console (_command prompt_) go to the folder where the `package.json` file is located and run the following commands:
+> <small>[**EN**]</small>
+>
+> Then from the console (_command prompt_) go to the folder where the `package.json` file is located and run the following commands:
 
 ```sh
 npm install
@@ -47,27 +53,47 @@ npm run dev
 
 И това е всичко.
 
-> <small>**EN**</small> That's all folks
+> <small>[**EN**]</small>
+>
+> That's all folks
 
-По долу съм описал малко постъпково, как да си нарпавите сами Vue 3 Boilerplate with Bootstrap 5
+По долу съм описал постъпково, как да си направите сами Vue 3 Boilerplate with Bootstrap 5.
+
+> <small>[**EN**]</small>
+>
+> Below I have described step by step how to make your own Vue 3 Boilerplate with Bootstrap 5.
 
 ## Enviroment
 
-### Pre requirements
+### Requirements
 
-Ако знаете какво е [Node JS] и [NPM] преминете на [Dependences](#dependences), ако не - ще спомена на кратко какво да направите, за да си ги инсталирате.
+Ако знаете какво е [Node JS] и [NPM] преминете на [Packages](#packages), ако не - ще спомена на кратко какво да направите, за да си ги инсталирате.
+
+> <small>[**EN**]</small>
+>
+> If you know what [Node JS] and [NPM] are, go to [Packages](#packages), if not - I’ll write briefly what you have to do to install them.
 
 #### Node JS and NPM
 
 На сайта на [Node JS] може да изтеглите инсталционния пакет. Най-добре за начало да свалите **LTS** (Long Term Support) версията. Стартирайте инсталатора и следвайте стъпките. След приключване проверете в конзолата (_Command Prompth_), дали всичко е добре.
 
+> <small>[**EN**]</small>
+>
+> You can download the installation package from the [Node JS] website. It is best to start by downloading the **LTS** (Long Term Support) version. Start the installer and follow the steps. When finished, check in the console (Command Prompth) if everything is fine.
+
 1. Проверка на версията на Node JS
+    > <small>[**EN**]</small>
+    >
+    > 1. Check the version of Node JS
 
 ```sh
 node -v
 ```
 
 2. Проверка на версията на NPM
+    > <small>[**EN**]</small>
+    >
+    > 2. Check the version of NPM
 
 ```sh
 npm -v
@@ -95,7 +121,7 @@ npm install -D @vue/compiler-sfc
 npm install -g @vue/cli
 ```
 
-### Dependences
+### Packages
 
 Това са основните пакети в темплейта. Те оформят постановка, от която може да започнете да разработвате свой собствен проект.
 
@@ -234,4 +260,5 @@ MIT
 [visual studio code]: https://code.visualstudio.com/
 [proper js]: https://popper.js.org/
 [vuex]: https://next.vuex.vuejs.org/
+[git]: https://git-scm.com/
 [github]: https://github.com/
