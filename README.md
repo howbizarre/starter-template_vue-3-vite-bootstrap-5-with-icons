@@ -23,13 +23,13 @@
 
 Свалете си сорса от [GitHub](https://github.com/howbizarre/starter-template_vue-3-vite-bootstrap-5-with-icons/releases). Разархиврате във ваша папка или в същата (архива съдържа собствена папка).
 
-> <small>[**EN**]</small>
+> [**EN**]
 >
 > Download the source [GitHub](https://github.com/howbizarre/starter-template_vue-3-vite-bootstrap-5-with-icons/releases). Unzip to your folder or to the same folder (the archive contains its own folder).
 
 Ако имате инсталиран [Git] може да клонирате проекта във ваша папка с командата:
 
-> <small>[**EN**]</small>
+> [**EN**]
 >
 > If you have Git installed you can clone the project in your folder with the command:
 
@@ -39,7 +39,7 @@ git clone https://github.com/howbizarre/starter-template_vue-3-vite-bootstrap-5-
 
 След което от конзолата (_command prompth_) отивате в папката, в която е `package.json` файла и стартирате следните команди:
 
-> <small>[**EN**]</small>
+> [**EN**]
 >
 > Then from the console (_command prompt_) go to the folder where the `package.json` file is located and run the following commands:
 
@@ -53,13 +53,13 @@ npm run dev
 
 И това е всичко.
 
-> <small>[**EN**]</small>
+> [**EN**]
 >
 > That's all folks
 
 По долу съм описал постъпково, как да си направите сами Vue 3 Boilerplate with Bootstrap 5.
 
-> <small>[**EN**]</small>
+> [**EN**]
 >
 > Below I have described step by step how to make your own Vue 3 Boilerplate with Bootstrap 5.
 
@@ -69,7 +69,7 @@ npm run dev
 
 Ако знаете какво е [Node JS] и [NPM] преминете на [Packages](#packages), ако не - ще спомена на кратко какво да направите, за да си ги инсталирате.
 
-> <small>[**EN**]</small>
+> [**EN**]
 >
 > If you know what [Node JS] and [NPM] are, go to [Packages](#packages), if not - I’ll write briefly what you have to do to install them.
 
@@ -77,12 +77,12 @@ npm run dev
 
 На сайта на [Node JS] може да изтеглите инсталционния пакет. Най-добре за начало да свалите **LTS** (Long Term Support) версията. Стартирайте инсталатора и следвайте стъпките. След приключване проверете в конзолата (_Command Prompth_), дали всичко е добре.
 
-> <small>[**EN**]</small>
+> [**EN**]
 >
 > You can download the installation package from the [Node JS] website. It is best to start by downloading the **LTS** (Long Term Support) version. Start the installer and follow the steps. When finished, check in the console (Command Prompth) if everything is fine.
 
 1. Проверка на версията на Node JS
-    > <small>[**EN**]</small>
+    > [**EN**]
     >
     > 1. Check the version of Node JS
 
@@ -91,7 +91,7 @@ node -v
 ```
 
 2. Проверка на версията на NPM
-    > <small>[**EN**]</small>
+    > [**EN**]
     >
     > 2. Check the version of NPM
 
