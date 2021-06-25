@@ -84,7 +84,7 @@ npm run dev
 1. Проверка на версията на Node JS
     > [**EN**]
     >
-    > 1. Check the version of Node JS
+    > Check the version of Node JS
 
 ```sh
 node -v
@@ -93,7 +93,7 @@ node -v
 2. Проверка на версията на NPM
     > [**EN**]
     >
-    > 2. Check the version of NPM
+    > Check the version of NPM
 
 ```sh
 npm -v
@@ -249,16 +249,17 @@ MIT
 [Back to top](#table-of-contents)
 
 [//]: # "Links Reference"
-[node js]: http://nodejs.org
-[npm]: https://www.npmjs.com/
-[vue js v3]: https://v3.vuejs.org/
-[bootstrap]: https://getbootstrap.com/
-[sass]: https://sass-lang.com/
-[vite]: https://vitejs.dev/
-[vue cli]: https://cli.vuejs.org/
-[vue router]: https://next.router.vuejs.org/
-[visual studio code]: https://code.visualstudio.com/
-[proper js]: https://popper.js.org/
-[vuex]: https://next.vuex.vuejs.org/
-[git]: https://git-scm.com/
-[github]: https://github.com/
+
+    [node js]: http://nodejs.org
+    [npm]: https://www.npmjs.com/
+    [vue js v3]: https://v3.vuejs.org/
+    [bootstrap]: https://getbootstrap.com/
+    [sass]: https://sass-lang.com/
+    [vite]: https://vitejs.dev/
+    [vue cli]: https://cli.vuejs.org/
+    [vue router]: https://next.router.vuejs.org/
+    [visual studio code]: https://code.visualstudio.com/
+    [proper js]: https://popper.js.org/
+    [vuex]: https://next.vuex.vuejs.org/
+    [git]: https://git-scm.com/
+    [github]: https://github.com/
