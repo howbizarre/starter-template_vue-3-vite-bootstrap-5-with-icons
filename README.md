@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
--   [Enviroment](enviroment)
+-   [Enviroment](#enviroment)
     -   [Pre requirements](#pre-requirements)
         -   [Node JS and NPM](#node-js-and-npm)
         -   [Vue JS v3, SFC and Vue CLI](#vue-js-v3-sfc-and-vue-cli)
@@ -12,9 +12,9 @@
         -   [Bootstrap 5, Bootstrap Icons and Proper](#bootstrap-5-bootstrap-icons-and-proper)
         -   [Sass](#sass)
     -   [Install and Run](#install-and-run)
--   [Boilerplate](boilerplate)
--   [Source code](source-code)
--   [License](license)
+-   [Boilerplate](#boilerplate)
+-   [Source code](#source-code)
+-   [License](#license)
 
 ## Enviroment
 
