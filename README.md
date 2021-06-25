@@ -2,8 +2,8 @@
 
 ## Table of Contents
 
--   [Getting Started](#getting-started)
--   [Enviroment](#enviroment)
+-   [Getting Started](#getting-started) - the easy way (TLDR)
+-   [Enviroment](#enviroment) - step by step to boilerplate
     -   [Pre requirements](#pre-requirements)
         -   [Node JS and NPM](#node-js-and-npm)
         -   [Vue JS v3, SFC and Vue CLI](#vue-js-v3-sfc-and-vue-cli)
