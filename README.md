@@ -2,13 +2,19 @@
 
 ## Table of Contents
 
-1. [Enviroment](enviroment)
-    1. [Pre requirements](#pre-requirements) - [Node JS and NPM](#node-js-and-npm) - [Vue JS v3, SFC and Vue CLI](#vue-js-v3-sfc-and-vue-cli)
-    2. [Dependences](#dependences) - [Vite](#vite) - [Vue router](#vue-router) - [Bootstrap 5, Bootstrap Icons and Proper](#bootstrap-5-bootstrap-icons-and-proper) - [Sass](#sass)
-    3. [Install and Run](#install-and-run)
-2. [Boilerplate](boilerplate)
-3. [Source code](source-code)
-4. [License](license)
+-   [Enviroment](enviroment)
+    -   [Pre requirements](#pre-requirements)
+        -   [Node JS and NPM](#node-js-and-npm)
+        -   [Vue JS v3, SFC and Vue CLI](#vue-js-v3-sfc-and-vue-cli)
+    -   [Dependences](#dependences)
+        -   [Vite](#vite)
+        -   [Vue router](#vue-router)
+        -   [Bootstrap 5, Bootstrap Icons and Proper](#bootstrap-5-bootstrap-icons-and-proper)
+        -   [Sass](#sass)
+    -   [Install and Run](#install-and-run)
+-   [Boilerplate](boilerplate)
+-   [Source code](source-code)
+-   [License](license)
 
 ## Setup the enviroment
 
