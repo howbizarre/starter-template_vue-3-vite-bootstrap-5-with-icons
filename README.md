@@ -2,8 +2,14 @@
 
 ## Table of Contents
 
--   [Pre requirements](#pre-requirements) -- [Node JS and NPM](#node-js-and-npm) -- [Vue JS v3, SFC and Vue CLI](#vue-js-v3-sfc-and-vue-cli)
--   Dependences -- Vite -- Vue router -- Bootstrap 5, Bootstrap Icons and Proper -- Sass
+-   [Pre requirements](#pre-requirements)
+    -   [Node JS and NPM](#node-js-and-npm)
+    -   [Vue JS v3, SFC and Vue CLI](#vue-js-v3-sfc-and-vue-cli)
+-   Dependences
+    -   Vite
+    -   Vue router
+    -   Bootstrap 5, Bootstrap Icons and Proper
+    -   Sass
 -   Install and Run
 
 ### Pre requirements
