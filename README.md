@@ -21,11 +21,14 @@
 
 ## Getting Started
 
-Свалете си сорса от [GitHub](https://github.com/howbizarre/starter-template_vue-3-vite-bootstrap-5-with-icons/releases). Разархиврате във ваша папка или в същата (архива съдържа собствена папка).
+1. Изтеглете последната версия
+    > [**EN**] Download the latest version
+
+Свалете си последната версия от [GitHub](https://github.com/howbizarre/starter-template_vue-3-vite-bootstrap-5-with-icons/releases). Разархиврате във ваша папка или в папката със сваления архив (архива съдържа собствена папка).
 
 > [**EN**]
 >
-> Download the source [GitHub](https://github.com/howbizarre/starter-template_vue-3-vite-bootstrap-5-with-icons/releases). Unzip to your folder or to the same folder (the archive contains its own folder).
+> Download the latest version from [GitHub](https://github.com/howbizarre/starter-template_vue-3-vite-bootstrap-5-with-icons/releases). Unzip the archive in to your folder or in to the download folder (the archive contains its own folder).
 
 Ако имате инсталиран [Git] може да клонирате проекта във ваша папка с командата:
 
@@ -37,11 +40,14 @@
 git clone https://github.com/howbizarre/starter-template_vue-3-vite-bootstrap-5-with-icons
 ```
 
-След което от конзолата (_command prompth_) отивате в папката, в която е `package.json` файла и стартирате следните команди:
+2. Създайте шаблона
+    > [**EN**] Create the boilerplate
+
+От конзолата (_command prompth_) отивате в папката, в която е `package.json` файла и стартирате следните команди:
 
 > [**EN**]
 >
-> Then from the console (_command prompt_) go to the folder where the `package.json` file is located and run the following commands:
+> From the console (_command prompt_) go to the folder where the `package.json` file is located and run the following commands:
 
 ```sh
 npm install
