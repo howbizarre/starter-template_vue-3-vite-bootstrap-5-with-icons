@@ -99,6 +99,14 @@
                     </div>
                 </div>
             </div>
+            <div class="p-5 bg-light border rounded-3 mt-4 d-flex justify-content-between">
+              <i class="bi bi-house-fill"></i>
+              <i class="bi bi-boxes"></i>
+              <i class="bi bi-car-front-fill"></i>
+              <i class="bi bi-cart4"></i>
+              <i class="bi bi-cloud-snow"></i>
+              <i class="bi bi-gear"></i>
+            </div>
         </div>
     </div>
 </template>

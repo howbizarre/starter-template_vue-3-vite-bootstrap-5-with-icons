@@ -13,15 +13,7 @@
     </footer>
 </template>
 
-<script>
+<script setup>
     import Nav from "../components/Nav.vue";
     import Refs from "../components/Refs.vue";
-
-    export default {
-        name: "MainLayout",
-        components: {
-            Nav,
-            Refs,
-        },
-    };
 </script>
