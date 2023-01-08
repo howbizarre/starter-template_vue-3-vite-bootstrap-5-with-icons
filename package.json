@@ -11,17 +11,17 @@
         "serve": "vite preview"
     },
     "dependencies": {
-        "@popperjs/core": "^2.9.2",
-        "bootstrap": "^5.0.2",
-        "bootstrap-icons": "^1.5.0",
+        "@popperjs/core": "^2.11.6",
+        "bootstrap": "^5.2.3",
+        "bootstrap-icons": "^1.10.3",
         "vue": "^3.1.2",
         "vue-router": "^4.0.10"
     },
     "devDependencies": {
-        "@vitejs/plugin-vue": "^1.2.4",
+        "@vitejs/plugin-vue": "^4.0.0",
         "@vue/compiler-sfc": "^3.1.2",
         "sass": "^1.35.1",
-        "vite": "^2.3.8"
+        "vite": "^4.0.4"
     },
     "engines": {
         "node": ">= 14.17.0",
