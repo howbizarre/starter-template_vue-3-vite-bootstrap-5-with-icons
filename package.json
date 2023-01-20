@@ -2,8 +2,8 @@
     "name": "starter-template_vue-3-vite-bootstrap-5-with-icons",
     "version": "1.0.1",
     "description": "Boilerplate for Vue 3 with Vite and Bootstrap 5 with Icons",
-    "license": "MIT",
-    "author": "how@errazib.com",
+    "license": "CC-BY-4.0",
+    "author": "howbizarre@gmail.com",
     "private": true,
     "scripts": {
         "dev": "vite",
