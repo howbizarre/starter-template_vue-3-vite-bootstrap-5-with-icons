@@ -1,3 +1,8 @@
+# NEW VERSION
+
+> ==I have created a new version of the project at address https://github.com/howbizarre/starter-template-vue-bootstrap-sass-typescript. I will add this version to a public archive in due course. The new version is written on Vue Composition API and has full Typescript support.==
+
+
 # Boilerplate for Vue 3 with Vite and Bootstrap 5 with Icons
 
 ## Table of Contents
