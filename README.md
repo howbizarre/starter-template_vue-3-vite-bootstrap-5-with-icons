@@ -1,6 +1,8 @@
 # NEW VERSION
 
->I have created a **NEW VERSION** of the project at address https://github.com/howbizarre/starter-template-vue-3-bootstrap-5-sass-typescript
+>I have created a **NEW VERSION** of the project at address https://github.com/howbizarre/starter-template-vue-3-bootstrap-5-sass-dark-theme-typescript
+
+**TypeScript** support and **Dark theme** switcher are included in the new version.
 
 I will add this version to a public archive in due course.
 The new version is written on **Vue Composition API** and has full **Typescript** support.
